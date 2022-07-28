@@ -1,0 +1,30 @@
+exp_dir: ~
+num_gpus: ~
+use_wandb: True
+resume: False
+random_seed: ~
+
+model:
+  model_type: ~
+  checkpoint: ~
+
+dataset:
+  train:
+    dataset_type: ~
+    batch_size: ~
+  valid:
+    dataset_type: ~
+    batch_size: ~
+  test:
+    dataset_type: ~
+    batch_size: ~
+
+train:
+  lr: ~
+  optim_type: ~
+  max_step: ~
+  loss:
+    regular_lambda: ~
+
+metrics:
+  meric_types: []
